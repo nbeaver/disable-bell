@@ -54,3 +54,11 @@ https://blog.sleeplessbeastie.eu/2012/12/28/debian-how-to-turn-off-the-system-be
     bell sound is very annoying.
 
 https://linuxconfig.org/turn-off-beep-bell-on-linux-terminal
+
+--------------------
+Other relevant links
+--------------------
+
+http://unix.stackexchange.com/questions/152691/how-to-disable-beep-sound-in-linux-centos-7-command-line
+
+http://www.thinkwiki.org/wiki/How_to_disable_the_pc_speaker_%28beep!%29
