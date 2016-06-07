@@ -2,9 +2,16 @@
 Disable audible bell.
 =====================
 
-This is a script to permanently disable the audible bell
+This is a script to universally and persistently disable the audible bell
 provided by the Linux ``pcspkr`` module,
-also known as the "console beep", "system bell",
+also known as the
+"console beep",
+"hardware beep",
+"system bell",
+"internal speaker",
+or "`PC speaker`_".
+
+.. _PC speaker: https://en.wikipedia.org/wiki/PC_speaker
 
 It copies the `<no-beep.conf>`_ file to ``/etc/modprobe.d/``.
 
