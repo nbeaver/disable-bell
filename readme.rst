@@ -62,3 +62,11 @@ Other relevant links
 http://unix.stackexchange.com/questions/152691/how-to-disable-beep-sound-in-linux-centos-7-command-line
 
 http://www.thinkwiki.org/wiki/How_to_disable_the_pc_speaker_%28beep!%29
+
+-------
+License
+-------
+
+This project is licensed under the terms of the `MIT license`_.
+
+.. _MIT license: LICENSE.txt
