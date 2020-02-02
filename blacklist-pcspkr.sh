@@ -22,18 +22,18 @@ fi
 
 if test -f "$output"
 then
-    printf "Error: ‘$output’ already exists.\n" 1>&2
+    printf "Error: '$output' already exists.\n" 1>&2
     exit 1
 fi
 
 if ! grep "$module" '/etc/modules'
 then
-    printf "Warning: module ‘$module’ is not loaded.\n" 1>&2
+    printf "Warning: module '$module' is not loaded.\n" 1>&2
 else
     # initstate: live,
     if ! test 'live' = "$(cat /sys/module/pcspkr/initstate)"
     then
-        printf "Warning: initstate is not 'live' for ‘$module’.\n" 1>&2
+        printf "Warning: initstate is not 'live' for '$module'.\n" 1>&2
     fi
 fi
 
