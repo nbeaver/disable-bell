@@ -6,11 +6,6 @@ output='/etc/modprobe.d/no-beep.conf'
 module='pcspkr'
 # End parameters.
 
-if ! id | grep sudo > /dev/null
-then
-    printf "Warning: you do not have sudo privileges.\n" 1>&2
-fi
-
 if ! test -d '/etc/modprobe.d/'
 then
     if ! sudo mkdir -p '/etc/modprobe.d/'
